@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.start--image{
+    text-align: center;
+}
+body{
+    background-color:aliceblue;
+}
+
+footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;}
+
+.start--buttons{
+    display: flex;
+    justify-content: space-around;
+}
+

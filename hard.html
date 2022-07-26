@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="hard.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"><img src="imgs\memory-logo.png" class="nav--logo" /></a>
+      </div>
+      <nav>
+        <a>How To Play</a>
+        <button onclick="newgame()">New game</button>
+        <button onclick="hintPress()">Hint</button>
+      </nav>
+    </header>
+    <div class="game-board">
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image001.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image001.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image004.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image004.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image007.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image007.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image008.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image008.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image009.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image009.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image020.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image020.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image023.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image023.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image029.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-hard\image029.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image002.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image002.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image005.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image005.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image011.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image011.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image016.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-meduim\image016.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image012.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image012.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image013.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image013.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image017.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image017.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image019.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image019.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image021.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image021.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image025.png" alt="" />
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="face card-front"></div>
+        <div class="face card-back">
+          <img src="imgs\imgs-easy\image025.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <audio src="Audio\false.mp3"></audio>
+    <div class="game-info">
+      <span>Number of Moves:</span>
+      <span class="moves">0</span><br />
+      <span>Total hints Left : </span>
+      <span class="hintsleft">3</span>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
